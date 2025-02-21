@@ -1349,7 +1349,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 5px; }
+  /* .avatar-box { border-radius: 5px; } */
+  .avatar-box {
+    width: 150px; /* Make sure width and height are equal */
+    height: 150px;
+    border-radius: 50%; /* Makes the box round */
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    display: flex; /* Centers image if needed */
+    align-items: center;
+    justify-content: center;
+  }
 
   .avatar-box img { width: 120px; }
 

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>vCard - Personal Portfolio</title> -->
+  <title>Yu Wang's homepage</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/yu_datong.jpg" alt="Yu Wang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yu Wang">Yu Wang (王雨)</h1>
+
+          <p class="title">Ph.D. candidate, Tsinghua University</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:wang-y21@mails.tsinghua.edu.cn" class="contact-link">wang-y21@mails.tsinghua.edu.cn</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="./assets/images/orcid.svg" alt="Yu Wang" width="30">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Orcid</p>
+
+              <a href="https://orcid.org/0009-0004-2217-4439" class="contact-link">0009-0004-2217-4439 </a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Beijing, China</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>about</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Test</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">volatile recycling</h2>
+        </header> 
+
+        <section class="about-text">
+          <p>
+           story s s 
+          </p>
+        </section>
+      </article>
+
+
+      <!--
+        - #RESOURCES
+      -->
+
+      <article class="about" data-page="test">
+        <header>
+          <h2 class="h2 article-title">Test</h2>
+        </header>
+
+        <header>
+          <h3 class="h3">List of Presentations</h3>
+        </header>
+
+        <section class="about-text">
+          <ul>
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/pebble_journey.pdf"  class="web-link">🪧 2024/09 Beijing</a>
+              Journey of an icy pebble (Summary poster of my works)
+            </li>
+
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/exssv_yu.pdf"  class="web-link">🪧 2024/03/16-21 Christchurch</a>
+              HUNT the Disk Water Snowline with 2D Hydrodynamic Simulations
+            </li>
+
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/MyPresentations/PPVII/PPVII.html"  class="web-link">🪧 2023/04/10-16 Kyoto</a>
+              PPVII supplementary material. Atmospheric recycling of volatiles by pebble-accreting planets.
+            </li>
+
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/Hot_Jupiter_cold_kinematics.pdf"  class="web-link">🗣 2022/10/21 THU</a>
+              Hot Jupiter, cold kinematics. The correlation between stellar phase space overdensity and Hot Jupiter's occurrency rate.
+            </li>
+
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/dmdg.pdf"  class="web-link">🗣 2022/06/06 THU</a>
+              The Origin of dark matter deficient galaxies, galatic physics term talk.
+            </li>
+
+            <li> <a style="display:inline;" href="assets/yu_pre/Presentations/hot_Jupiter_wind.pdf"  class="web-link">🗣 2021/04/16 THU</a>
+              Magnetically Driven Circulation and Hotspot Shift on Tidally-locked Hot Jupiters
+            </li>
+          </ul>
+        </section>
+
+        <header>
+          <h3 class="h3">downloads</h3>
+        </header>
+        <section class="about-text">
+          <ul>
+            <li> <a style="display:inline;" href="assets/download/pseudo_spectral.rar"  class="web-link">pseuso-spectral</a>
+              pseudo-spetral code to solve steady-state wave pattern on Hot-Jupiters. ⚠️: This code is not well-examined and only for demenstration purpose. Ref: <a style="display:inline;" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...869...65H/abstract"  class="web-link">Hammond et al 2018</a>.
+            </li>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
