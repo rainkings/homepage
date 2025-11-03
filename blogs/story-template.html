@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Story Template</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .md-body img { max-width: 100%; height: auto; border-radius: 8px; }
+    figure { margin: 1.25rem 0; text-align: center; }
+    figcaption { font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem; }
+    .back-link { display:inline-block; margin-top:16px; }
+    .back-fab { position: fixed; left: 24px; bottom: 24px; z-index: 1000; padding: 10px 14px; border-radius: 999px; background: #2b2b2b; color: #fff; text-decoration: none; box-shadow: 0 8px 24px rgba(0,0,0,0.25); transition: transform 0.15s ease, box-shadow 0.15s ease; font-weight: 500; opacity: 0.6; }
+    .back-fab:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0,0,0,0.3); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const markdown = `
+# Atmospheric recycling story
+
+Welcome! Use this page as a template to write stories about your papers.
+
+## Why it matters
+- Efficient exchange between envelope and disk
+- Implications for water delivery and observed compositions
+
+![Streamlines](../assets/yu_pre/images/streamline.png)
+
+<figure>
+  <img src="../assets/yu_pre/images/isothermal2.png" alt="Isothermal benchmark">
+  <figcaption>Figure 1. Isothermal benchmark.</figcaption>
+</figure>
+
+### Reference
+See our paper: [ADS link](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.6186W/abstract)
+      `.trim();
+
+      document.getElementById('md').innerHTML = marked.parse(markdown);
+    });
+  </script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+  
+</head>
+<body>
+  <main>
+    <div class="main-content">
+      <article class="about active" data-page="story">
+        <header>
+          <h2 class="h2 article-title">Paper Story Template</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Use this template to write a narrative about your paper, with figures and Markdown.
+          </p>
+        </section>
+
+        <figure>
+          <img src="../assets/yu_pre/images/planet_formation.png" alt="Cover">
+          <figcaption>Cover image. Replace with your figure.</figcaption>
+        </figure>
+
+        <div id="md" class="about-text md-body"></div>
+
+      </article>
+    </div>
+  </main>
+  <a class="back-fab" href="../index.html#portfolio" title="Back to home">⬅️ Back to home</a>
+</body>
+</html>
+
+

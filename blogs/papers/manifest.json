@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "recycling",
+    "title": "When do planets become wet--or stay dry?",
+    "category": "paper",
+    "cover": "./recycling/cover.png",
+    "coverCaption": "bla",
+    "markdown": "./recycling/story.md"
+  },
+  {
+    "slug": "snowline_2D",
+    "title": "Beyond 1D: how the 2D snowline traps water and builds planets",
+    "category": "paper",
+    "cover": "./snowline_2D/cover.png",
+    "coverCaption": "bla",
+    "markdown": "./snowline_2D/story.md"
+  },
+  {
+    "slug": "V883 Ori",
+    "title": "Dust and Water in V883 Ori: Relics of a Retreating Snowline",
+    "category": "paper",
+    "cover": "./V883Ori/cover.png",
+    "coverCaption": "bla",
+    "markdown": "./V883Ori/story.md"
+  }
+]
+
+

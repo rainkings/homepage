@@ -197,9 +197,9 @@
             <button class="navbar-link" data-nav-link>Resources</button>
           </li>
 
-          <!-- <li class="navbar-item">
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li> -->
+          </li>
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
@@ -582,14 +582,19 @@
             <ol>
               <li><b>Wang Y.</b>, Ormel C. W., Huang P., Kuiper R., 2023, MNRAS, 523, 4 <br>
                  <a style="display:inline;" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.6186W/abstract" class="web-link"><i>Atmospheric recycling of volatiles by pebble-accreting planets</i> </a>
+                 <a style="display:inline;margin-left:8px;" href="#portfolio?story=recycling" class="web-link">[story]</a>
               </li>
               <li>Jiang H., <b>Wang Y.</b>, Ormel C. W., Krijt S., Dong R., 2023, A&A, 678, A33 <br>
                 <a style="display:inline;" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...678A..33J/abstract" class="web-link"><i>Chemical footprints of giant planet formation: Role of planet accretion in shaping the C/O ratio of
                   protoplanetary disks</i> </a>
               </li>
-              <li><b>Wang Y.</b>, Ormel C. W., Mori S., Bai X., 2025, A&A accepted<br>
-                <a style="display:inline;" href="https://ui.adsabs.harvard.edu/abs/2025arXiv250208936W/abstract" class="web-link"><i>Solving for the 2D Water Snowline with Hydrodynamic Simulations. Emergence of gas outflow, water cycle and temperature plateau</i> </a>
+              <li><b>Wang Y.</b>, Ormel C. W., Mori S., Bai X., 2025, A&A, 696, A38<br>
+                <a style="display:inline;" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...696A..38W/abstract" class="web-link"><i>Solving for the 2D Water Snowline with Hydrodynamic Simulations. Emergence of gas outflow, water cycle and temperature plateau</i> </a>
+                <a style="display:inline;margin-left:8px;" href="#portfolio?story=snowline_2D" class="web-link">[story]</a>
              </li>
+             <li><b>Wang Y.</b>, Ormel C. W., Jiang H.-C., Krijt S., Houge A., Macías, E., 2025, A&A Letter, accepted<br>
+              <a style="display:inline;" href="https://arxiv.org/abs/2510.27468" class="web-link"><i>Dust and Water in V883 Ori: Relics of a Retreating Snowline</i> </a>
+           </li>
             </ol>
             
           </p>
@@ -600,10 +605,10 @@
           <h3 class="h3">Attendance of events </h3>
         </header> 
 
-        <section class="about-text">
+        <section class="about-text">https://arxiv.org/abs/2510.27468
           <p>
             <ol>
-              <li>Jan - May 2025, ongoing, <b>CCA predoc fellowship</b>, CCA, Flatiron Institute, New York, US </i>
+              <li>Jan - May 2025, <b>CCA predoc fellowship</b>, CCA, Flatiron Institute, New York, US </i>
               </li>
               <li>Jul. 31st - Aug. 11th 2023, <b>Fluid dynamics summer school</b>, CCA, Flatiron Institute, New York, US </i>
               </li>
@@ -805,228 +810,18 @@
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
+        <section class="about-text">
+          <p>Stories about my papers. Click a card to read the story on the right.</p>
+        </section>
+
+        <section class="about-text" id="portfolio-detail" style="display:none;">
+          <!-- Story details will render here when a card is clicked -->
+        </section>
+
         <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
+          <ul class="project-list" id="portfolio-list">
+            <!-- Cards populated dynamically from blogs/papers/manifest.json -->
           </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
         </section>
 
       </article>
@@ -1149,6 +944,35 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Markdown renderer for Portfolio story -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    (function renderPortfolioStory(){
+      var el = document.getElementById('portfolio-story');
+      if (!el || !window.marked) return;
+      var markdown = (
+`# Atmospheric recycling story
+
+This is a template section inside the Portfolio page. Write your story here in Markdown.
+
+## Why it matters
+- Efficient exchange between envelope and disk
+- Implications for water delivery and observed compositions
+
+![Streamlines](./assets/yu_pre/images/streamline.png)
+
+<figure>
+  <img src="./assets/yu_pre/images/isothermal2.png" alt="Isothermal benchmark">
+  <figcaption>Figure 1. Isothermal benchmark.</figcaption>
+</figure>
+
+### Reference
+See our paper: [ADS link](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.6186W/abstract)`
+      ).trim();
+      el.innerHTML = marked.parse(markdown);
+    })();
+  </script>
 
 </body>
 
