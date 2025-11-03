@@ -334,6 +334,10 @@ document.addEventListener("click", function (e) {
       if (!v.hasAttribute('controls')) v.setAttribute('controls', '');
       try { v.load(); } catch (e) {}
     });
+    // Type math with MathJax if available
+    if (window.MathJax && window.MathJax.typesetPromise) {
+      window.MathJax.typesetPromise([bodyEl]).catch(function(err) { console.warn('MathJax render issue:', err); });
+    }
   };
   if (mdUrl) {
     fetch(mdUrl).then(r => r.text()).then(renderMd).catch(() => renderMd('Failed to load story.'));

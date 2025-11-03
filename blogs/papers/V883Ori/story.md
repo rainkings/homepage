@@ -12,7 +12,7 @@ While earlier interpretations relied on static disk models, the snowline in V883
 
 The model naturally reproduces both the observed intensity shoulder and the extended water vapor as relics of a retreating snowline:
 (1) at the moving condensation front, the recondensation of vapor enhances the local surface density, producing the observed intensity shoulder (panel 2); and
-(2) the persistent water plumes (pink in panel 3) in the disk atmosphere, sustained by long recondensation timescales, account for the extended water emission.
+(2) While in the midplane, vapor recondenses instanteneously with the retreat of snowline, in the disk atmosphere, the recondensation timescale in the disk atmosphere becomes long ($10^2$-$10^3$ yrs) due to the low pebble density there. The resulting lingering water plumes (pink in panel 3) naturally explain the extended water emission.
 As V883 Ori continues to fade, we predict that the intensity shoulder will migrate inward by an observationally significant ∼10 au over the next ∼25 years.
 
 -----
